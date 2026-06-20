@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNSEEN CAMPUS | Immersive Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <header class="navbar">
+        <div class="logo">UNSEEN CAMPUS</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#poster">Artwork</a>
+            <a href="#audio">Soundtrack</a>
+            <a href="#aesthetics">Aesthetics</a>
+            <a href="#story">Story</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in">
+            <h1 class="glitch-title">UNSEEN CAMPUS</h1>
+            <p class="tagline">Who We Are. What We Stand For. The Stories Between.</p>
+            <div class="hero-body">
+                <p>Welcome to Unseen Campus, where what is shown is only part of the story.</p>
+                <p>Every campus has two sides—the polished image seen by the world and the lived reality experienced by students. This project explores that hidden layer through storytelling, visuals, and sound, revealing the deeper structure of campus life.</p>
+            </div>
+            <a href="#poster" class="btn-enter">
+                <span>Enter Experience</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="poster" class="section scroll-reveal">
+        <h2 class="section-title">The Visual Dimension</h2>
+        <div class="poster-container">
+            <div class="poster-card">
+                <div class="poster-graphic">
+    <img src="poster.jpg" alt="Unseen Campus Poster" class="poster-image">
+</div>
+                </div>
+                <div class="poster-info">
+                    <h3>AI Generated Concept Artwork</h3>
+                    <p>This visual represents the hidden layers of campus life and the contrast between perception and reality. Through symbolism and storytelling, it reveals the experiences, efforts, and unseen systems that shape student life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="audio" class="section scroll-reveal">
+        <h2 class="section-title">Sonic Atmosphere</h2>
+        <div class="audio-container">
+            <div class="glass-card audio-card">
+                <div class="audio-waves">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="audio-details">
+                    <h3>Unseen Campus Official Soundtrack</h3>
+                    <p class="audio-description">This soundtrack captures the emotions, atmosphere, and journey of Unseen Campus, creating an immersive experience that complements the visual story.</p>
+                </div>
+                <div class="audio-controls">
+                    <video controls width="100%">
+    <source src="campus.mp4" type="video/mp4">
+</video>
+                    <button id="play-pause-btn" class="control-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aesthetics" class="section scroll-reveal">
+        <h2 class="section-title">Theme & Aesthetics</h2>
+        <div class="aesthetics-grid">
+            <div class="glass-card info-panel">
+                <p>A cinematic and futuristic visual style representing the contrast between a campus's public image and the hidden experiences within it. The design uses symbolic storytelling, layered visuals, and immersive lighting to create curiosity and reflection.</p>
+            </div>
+            <div class="glass-card design-specs">
+                <h3>Visual DNA</h3>
+                <div class="palette">
+                    <div class="color-swatch purple" data-label="Deep Purple"></div>
+                    <div class="color-swatch blue" data-label="Electric Blue"></div>
+                    <div class="color-swatch green" data-label="Soft Green"></div>
+                    <div class="color-swatch dark" data-label="Dark Futuristic"></div>
+                </div>
+                <ul class="style-tags">
+                    <li>Cinematic</li>
+                    <li>Neon Glow</li>
+                    <li>Minimal</li>
+                    <li>Vaporwave Inspired</li>
+                    <li>Story-Driven</li>
+                </ul>
+                <div class="mood-box">
+                    <strong>Mood:</strong> Curious, Reflective, Immersive
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="section scroll-reveal">
+        <div class="story-wrapper">
+            <h2 class="section-title">The Narrative</h2>
+            <div class="glass-card story-card">
+                <p class="highlight-text">A campus is never just what it appears to be.</p>
+                <p>Unseen Campus begins with a simple question—what lies beyond the perfect image we are shown?</p>
+                <p>Behind every classroom, corridor, and campus landmark are stories of effort, ambition, challenges, collaboration, and growth. This project explores those hidden layers and invites viewers to look beyond appearances to discover the experiences that truly shape campus life.</p>
+                <p class="emphasis-text">Because a campus is not just seen—it is lived.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 UNSEEN CAMPUS. All Rights Reserved.</p>
+            <p class="credits">Designed for National-Level Exhibition Showcase</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
